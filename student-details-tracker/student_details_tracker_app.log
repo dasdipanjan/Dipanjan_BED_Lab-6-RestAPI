@@ -1,0 +1,85 @@
+2023-05-10 14:37:25.843  INFO 11376 --- [main] g.s.t.l.StudentDetailsTrackerApplication : Starting StudentDetailsTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 11376 (D:\Learnings\Great Learning\Spring Framework\Workspace\student-details-tracker\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\student-details-tracker)
+2023-05-10 14:37:25.846  INFO 11376 --- [main] g.s.t.l.StudentDetailsTrackerApplication : No active profile set, falling back to 1 default profile: "default"
+2023-05-10 14:37:26.970  INFO 11376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-10 14:37:27.018  INFO 11376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2023-05-10 14:37:27.742  INFO 11376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-10 14:37:27.751  INFO 11376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-10 14:37:27.751  INFO 11376 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-10 14:37:27.837  INFO 11376 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-10 14:37:27.837  INFO 11376 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1929 ms
+2023-05-10 14:37:28.139  INFO 11376 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-10 14:37:28.189  INFO 11376 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-10 14:37:28.328  INFO 11376 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-10 14:37:28.428  WARN 11376 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-05-10 14:37:28.430  INFO 11376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-10 14:37:28.699  INFO 11376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-10 14:37:28.714  INFO 11376 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-10 14:37:29.354  INFO 11376 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-10 14:37:29.360  INFO 11376 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-10 14:37:29.764  WARN 11376 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-10 14:37:30.135  INFO 11376 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-05-10 14:37:30.146  INFO 11376 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@742aa00a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2be208db, org.springframework.security.web.context.SecurityContextPersistenceFilter@3cc5408c, org.springframework.security.web.header.HeaderWriterFilter@7d65c0ac, org.springframework.web.filter.CorsFilter@5ed463b7, org.springframework.security.web.authentication.logout.LogoutFilter@48b01607, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6ace3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@d43f205, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1ae90cb9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36f438f1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d260494, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b62c51e, org.springframework.security.web.session.SessionManagementFilter@584f4ca5, org.springframework.security.web.access.ExceptionTranslationFilter@460df441, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@63a9af28]
+2023-05-10 14:37:30.388  INFO 11376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-10 14:37:30.404  INFO 11376 --- [main] g.s.t.l.StudentDetailsTrackerApplication : Started StudentDetailsTrackerApplication in 5.018 seconds (JVM running for 5.489)
+2023-05-10 14:37:42.608  INFO 11376 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-10 14:37:42.610  INFO 11376 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-10 14:37:42.611  INFO 11376 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-10 14:37:42.845  WARN 11376 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [190] milliseconds.
+2023-05-10 14:37:52.156  INFO 11376 --- [http-nio-8080-exec-6] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 2
+2023-05-10 14:37:58.236  INFO 11376 --- [http-nio-8080-exec-2] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 2
+2023-05-10 14:37:58.271  INFO 11376 --- [http-nio-8080-exec-1] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 2
+2023-05-10 14:38:01.737  INFO 11376 --- [http-nio-8080-exec-5] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 2
+2023-05-10 14:38:01.772  INFO 11376 --- [http-nio-8080-exec-6] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 2
+2023-05-10 14:38:04.432  INFO 11376 --- [http-nio-8080-exec-9] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 2
+2023-05-10 14:38:04.466  INFO 11376 --- [http-nio-8080-exec-10] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 2
+2023-05-10 14:38:06.518  INFO 11376 --- [http-nio-8080-exec-3] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 2
+2023-05-10 14:38:06.551  INFO 11376 --- [http-nio-8080-exec-4] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 2
+2023-05-10 14:38:24.744  INFO 11376 --- [http-nio-8080-exec-7] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : New Student record has been created with studentId := 22
+2023-05-10 14:38:24.750  INFO 11376 --- [http-nio-8080-exec-7] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 3
+2023-05-10 14:38:24.765  INFO 11376 --- [http-nio-8080-exec-8] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 3
+2023-05-10 14:38:24.800  INFO 11376 --- [http-nio-8080-exec-9] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 3
+2023-05-10 14:38:28.844  INFO 11376 --- [http-nio-8080-exec-1] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 3
+2023-05-10 14:38:28.880  INFO 11376 --- [http-nio-8080-exec-3] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 3
+2023-05-10 14:38:42.004  INFO 11376 --- [http-nio-8080-exec-6] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 3
+2023-05-10 14:38:42.040  INFO 11376 --- [http-nio-8080-exec-7] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 3
+2023-05-10 14:38:45.022  INFO 11376 --- [http-nio-8080-exec-10] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 3
+2023-05-10 14:38:45.056  INFO 11376 --- [http-nio-8080-exec-2] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 3
+2023-05-10 14:38:47.116  INFO 11376 --- [http-nio-8080-exec-4] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 3
+2023-05-10 14:38:47.148  INFO 11376 --- [http-nio-8080-exec-5] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 3
+2023-05-10 14:40:30.729  INFO 11376 --- [http-nio-8080-exec-2] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 3
+2023-05-10 14:42:00.709  INFO 11376 --- [http-nio-8080-exec-5] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 3
+2023-05-10 14:42:00.749  INFO 11376 --- [http-nio-8080-exec-6] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 3
+2023-05-10 14:44:32.280  INFO 11376 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-10 14:44:32.282  INFO 11376 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-10 14:44:32.295  INFO 11376 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-10 14:44:36.709  INFO 9380 --- [main] g.s.t.l.StudentDetailsTrackerApplication : Starting StudentDetailsTrackerApplication using Java 11.0.15 on DIPANJAN-BOOK with PID 9380 (D:\Learnings\Great Learning\Spring Framework\Workspace\student-details-tracker\target\classes started by Dipanjan in D:\Learnings\Great Learning\Spring Framework\Workspace\student-details-tracker)
+2023-05-10 14:44:36.712  INFO 9380 --- [main] g.s.t.l.StudentDetailsTrackerApplication : No active profile set, falling back to 1 default profile: "default"
+2023-05-10 14:44:37.518  INFO 9380 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-10 14:44:37.570  INFO 9380 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
+2023-05-10 14:44:38.298  INFO 9380 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-10 14:44:38.308  INFO 9380 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-10 14:44:38.308  INFO 9380 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-10 14:44:38.402  INFO 9380 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-10 14:44:38.402  INFO 9380 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1630 ms
+2023-05-10 14:44:38.708  INFO 9380 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-10 14:44:38.753  INFO 9380 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-10 14:44:38.874  INFO 9380 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-10 14:44:38.963  WARN 9380 --- [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2023-05-10 14:44:38.964  INFO 9380 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-10 14:44:39.233  INFO 9380 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-10 14:44:39.245  INFO 9380 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-10 14:44:40.102  INFO 9380 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-10 14:44:40.115  INFO 9380 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-10 14:44:40.564  WARN 9380 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-10 14:44:40.977  INFO 9380 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-05-10 14:44:40.989  INFO 9380 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@742aa00a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2be208db, org.springframework.security.web.context.SecurityContextPersistenceFilter@3cc5408c, org.springframework.security.web.header.HeaderWriterFilter@7d65c0ac, org.springframework.web.filter.CorsFilter@5ed463b7, org.springframework.security.web.authentication.logout.LogoutFilter@48b01607, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@58a9e64d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@d43f205, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1ae90cb9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36f438f1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d260494, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b62c51e, org.springframework.security.web.session.SessionManagementFilter@584f4ca5, org.springframework.security.web.access.ExceptionTranslationFilter@460df441, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44a0e68f]
+2023-05-10 14:44:41.226  INFO 9380 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-10 14:44:41.239  INFO 9380 --- [main] g.s.t.l.StudentDetailsTrackerApplication : Started StudentDetailsTrackerApplication in 4.957 seconds (JVM running for 5.428)
+2023-05-10 14:44:42.309  INFO 9380 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-10 14:44:42.310  INFO 9380 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-10 14:44:42.312  INFO 9380 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-05-10 14:44:42.536  WARN 9380 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [186] milliseconds.
+2023-05-10 14:44:50.805  INFO 9380 --- [http-nio-8080-exec-4] c.g.s.t.l.s.i.StudentDetailsServiceImpl  : Student details list size := 3
+2023-05-10 14:45:18.972  INFO 9380 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-10 14:45:18.975  INFO 9380 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-10 14:45:18.992  INFO 9380 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

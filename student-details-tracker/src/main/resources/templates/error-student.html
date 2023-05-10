@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Student Directory</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Student Tracker</a>
+        <button class="navbar-toggler" data-bs-target="#collapsibleNavbar" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/student/list}">Student List</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <br>
+    <div class="row">
+        <h1 style="color: red">Error Message</h1>
+    </div>
+</div>
+<hr>
+<div class="container">
+    <div class="row">
+        <h1 style="color: red">HTTP Status 403 - Access is denied</h1>
+        <h2 style="color: red" th:text="${errmessage}"></h2>
+    </div>
+</div>
+</body>
+</html>
